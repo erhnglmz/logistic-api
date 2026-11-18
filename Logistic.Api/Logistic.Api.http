@@ -1,0 +1,13 @@
+@Logistic.Api_HostAddress = http://localhost:5111
+
+GET {{Logistic.Api_HostAddress}}/health/live
+
+###
+
+GET {{Logistic.Api_HostAddress}}/health/ready
+
+###
+
+GET {{Logistic.Api_HostAddress}}/health
+
+###

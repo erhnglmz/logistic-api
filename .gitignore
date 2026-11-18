@@ -1,0 +1,28 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+Logistic.Api/appsettings.Development.json
+
+# Build
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# IDE
+.idea/
+.vs/
+*.DotSettings.user
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+TestResults/
+coverage/

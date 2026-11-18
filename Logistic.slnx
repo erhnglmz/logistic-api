@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Logistic.Api/Logistic.Api.csproj" />
+  <Project Path="Logistic.ApplicationService/Logistic.ApplicationService.csproj" />
+  <Project Path="Logistic.Domain/Logistic.Domain.csproj" />
+  <Project Path="Logistic.Infrastructure/Logistic.Infrastructure.csproj" />
+</Solution>

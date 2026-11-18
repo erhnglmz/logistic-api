@@ -1,0 +1,11 @@
+**/.env
+**/.env.*
+!**/.env.example
+**/bin/
+**/obj/
+**/.idea/
+**/.vs/
+**/node_modules/
+**/.git/
+**/.DS_Store
+**/docs/
