@@ -96,3 +96,19 @@ Product and architecture docs are in [`docs/`](docs/).
 dotnet build Logistic.sln
 dotnet test   # when tests exist
 ```
+
+## Publish to GitHub (maintainers)
+
+Initial commits are on `main`. After [GitHub CLI login](https://cli.github.com/):
+
+```bash
+gh auth login
+gh repo create erhnglmz/logistic-api --public --description "Logistic ASP.NET Core API" --source=. --remote=origin --push
+```
+
+For `logistic-web` (sibling directory):
+
+```bash
+cd ../logistic-web
+gh repo create erhnglmz/logistic-web --public --description "Logistic React web app" --source=. --remote=origin --push
+```
